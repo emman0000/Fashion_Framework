@@ -28,3 +28,8 @@ htmlcov/
 # OS files
 .DS_Store
 Thumbs.db
+# macOS metadata
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
