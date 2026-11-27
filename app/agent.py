@@ -1,5 +1,5 @@
+# ADK application entry point
 
-from app.agents.trend_research import trend_research_agent
+from app.agents.stockline_router import stockline_router
 
-# ADK uses root_agent as the application entry point.
-root_agent = trend_research_agent
+root_agent = stockline_router

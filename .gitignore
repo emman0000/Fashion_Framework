@@ -38,3 +38,4 @@ app/.adk/
 
 # Backup files
 *.bak
+app/data/*.db

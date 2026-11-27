@@ -2,11 +2,11 @@
 from google.adk.agents import LlmAgent
 
 from app.tools.data_loader import load_market_data
-
+from app.config import MODEL_NAME
 
 customer_research_agent = LlmAgent(
     name="customer_research_agent",
-    model="gemini-3.8-flash",
+    model=MODEL_NAME,
     description=(
         "Analyses customer preferences, price sensitivity and "
         "product suitability for an apparel retailer."
