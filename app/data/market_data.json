@@ -1,0 +1,150 @@
+
+{
+  "metadata": {
+    "dataset_type": "simulated",
+    "version": "1.0",
+    "description": "Illustrative summer apparel market data for testing the multi-agent system. Not real market research."
+  },
+  "business": {
+    "business_name": "Summer Threads",
+    "business_type": "Apparel retailer",
+    "market": "Example urban apparel market",
+    "target_season": "Summer",
+    "target_customers": {
+      "age_range": "18-35",
+      "customer_segment": "Affordable casual fashion",
+      "price_sensitivity": "Medium to high"
+    },
+    "purchasing_budget": 250000,
+    "currency": "USD",
+    "target_gross_margin_percent": 50
+  },
+  "historical_sales": [
+    {
+      "product": "Cotton T-shirt",
+      "category": "Tops",
+      "units_sold": 850,
+      "average_selling_price": 18,
+      "average_unit_cost": 8,
+      "season": "Previous summer"
+    },
+    {
+      "product": "Linen shirt",
+      "category": "Tops",
+      "units_sold": 620,
+      "average_selling_price": 32,
+      "average_unit_cost": 15,
+      "season": "Previous summer"
+    },
+    {
+      "product": "Wide-leg trousers",
+      "category": "Bottoms",
+      "units_sold": 480,
+      "average_selling_price": 35,
+      "average_unit_cost": 17,
+      "season": "Previous summer"
+    },
+    {
+      "product": "Summer dress",
+      "category": "Dresses",
+      "units_sold": 390,
+      "average_selling_price": 42,
+      "average_unit_cost": 20,
+      "season": "Previous summer"
+    },
+    {
+      "product": "Co-ord set",
+      "category": "Sets",
+      "units_sold": 270,
+      "average_selling_price": 48,
+      "average_unit_cost": 24,
+      "season": "Previous summer"
+    }
+  ],
+  "customer_insights": [
+    {
+      "preference": "Breathable fabrics",
+      "interest_level": "High"
+    },
+    {
+      "preference": "Comfortable everyday clothing",
+      "interest_level": "High"
+    },
+    {
+      "preference": "Neutral and pastel colours",
+      "interest_level": "High"
+    },
+    {
+      "preference": "Affordable pricing",
+      "interest_level": "High"
+    },
+    {
+      "preference": "Statement prints",
+      "interest_level": "Medium"
+    }
+  ],
+  "competitor_products": [
+    {
+      "product": "Oversized cotton T-shirt",
+      "category": "Tops",
+      "competitor_price": 20,
+      "observed_demand": "High"
+    },
+    {
+      "product": "Linen blend shirt",
+      "category": "Tops",
+      "competitor_price": 36,
+      "observed_demand": "High"
+    },
+    {
+      "product": "Wide-leg linen trousers",
+      "category": "Bottoms",
+      "competitor_price": 39,
+      "observed_demand": "High"
+    },
+    {
+      "product": "Printed summer dress",
+      "category": "Dresses",
+      "competitor_price": 45,
+      "observed_demand": "Medium"
+    },
+    {
+      "product": "Matching co-ord set",
+      "category": "Sets",
+      "competitor_price": 55,
+      "observed_demand": "Medium"
+    }
+  ],
+  "supplier_catalog": [
+    {
+      "product": "Cotton T-shirt",
+      "unit_cost": 8,
+      "minimum_order_quantity": 50,
+      "lead_time_days": 14
+    },
+    {
+      "product": "Linen shirt",
+      "unit_cost": 15,
+      "minimum_order_quantity": 40,
+      "lead_time_days": 21
+    },
+    {
+      "product": "Wide-leg trousers",
+      "unit_cost": 17,
+      "minimum_order_quantity": 40,
+      "lead_time_days": 21
+    },
+    {
+      "product": "Summer dress",
+      "unit_cost": 20,
+      "minimum_order_quantity": 30,
+      "lead_time_days": 28
+    },
+    {
+      "product": "Co-ord set",
+      "unit_cost": 24,
+      "minimum_order_quantity": 30,
+      "lead_time_days": 28
+    }
+  ]
+}

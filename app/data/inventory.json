@@ -1,0 +1,66 @@
+
+{
+  "metadata": {
+    "dataset_type": "simulated",
+    "version": "1.0",
+    "description": "Illustrative inventory data for Stockline testing. Not actual business inventory."
+  },
+  "inventory": [
+    {
+      "product": "Cotton T-shirt",
+      "on_hand_units": 180,
+      "reserved_units": 35,
+      "safety_stock_units": 60,
+      "incoming_orders": [
+        {
+          "order_id": "PO-001",
+          "quantity": 100,
+          "status": "in_transit",
+          "expected_arrival_days": 10
+        }
+      ]
+    },
+    {
+      "product": "Linen shirt",
+      "on_hand_units": 90,
+      "reserved_units": 10,
+      "safety_stock_units": 35,
+      "incoming_orders": [
+        {
+          "order_id": "PO-002",
+          "quantity": 40,
+          "status": "confirmed",
+          "expected_arrival_days": 18
+        }
+      ]
+    },
+    {
+      "product": "Wide-leg trousers",
+      "on_hand_units": 75,
+      "reserved_units": 15,
+      "safety_stock_units": 30,
+      "incoming_orders": []
+    },
+    {
+      "product": "Summer dress",
+      "on_hand_units": 55,
+      "reserved_units": 8,
+      "safety_stock_units": 25,
+      "incoming_orders": [
+        {
+          "order_id": "PO-003",
+          "quantity": 30,
+          "status": "approved",
+          "expected_arrival_days": 25
+        }
+      ]
+    },
+    {
+      "product": "Co-ord set",
+      "on_hand_units": 40,
+      "reserved_units": 5,
+      "safety_stock_units": 20,
+      "incoming_orders": []
+    }
+  ]
+}

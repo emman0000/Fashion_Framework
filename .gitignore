@@ -32,4 +32,9 @@ Thumbs.db
 .DS_Store
 ._*
 .AppleDouble
-.LSOverride
+.LSOverridep
+# ADK local session data
+app/.adk/
+
+# Backup files
+*.bak
